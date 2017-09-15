@@ -1,0 +1,67 @@
+<div class="row">
+    <div class="col-md-6">
+        <h2>Email {{#translate}}Lists{{/translate}}</h2>
+    </div>
+    <div class="col-md-6">
+        <div class="pull-right">
+            <a class="btn waves-effect waves-light btn-danger" href="/lists/create" role="button"><i class="glyphicon glyphicon-plus"></i> {{#translate}}New Lists{{/translate}}</a>
+        </div>
+    </div>
+</div>
+<ol class="breadcrumb">
+    <li><a href="/">{{#translate}}Home{{/translate}}</a></li>
+    <li class="active">{{#translate}}Lists{{/translate}}</li>
+</ol>
+
+<div class="col-12 card">
+    <div style="padding:20px;">
+        <div class="card-body">
+            <div style="row">
+                <div class="col-md-6">
+                    <h6 class="card-subtitle">You can add, remove or edit your email lists.</h6>
+                </div>
+                <div class="col-md-6">
+                    <div id="example23_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="example23"></label></div>
+                </div>
+            </div>
+            
+            <div class="table-responsive">
+                <ul id="list_view_tbl" class="emal-list search-listing">
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{{!-- 
+<div class="table-responsive">
+    <table class="table-responsive" id="list_view_tbl" style="width:100%;">
+        <tbody id="">
+        </tbody>
+    </table>
+</div> --}}
+
+{{!-- <div class="table-responsive">
+    <table data-topic-url="/lists" data-sort-column="1" data-sort-order="asc" class="table table-bordered table-hover data-table-ajax display nowrap" width="100%" data-row-sort="0,1,1,1,0,0">
+        <thead>
+        <th style="width: 1%">
+            #
+        </th>
+        <th>
+            {{#translate}}Name{{/translate}}
+        </th>
+        <th>
+            {{#translate}}ID{{/translate}}
+        </th>
+        <th>
+            {{#translate}}Subscribers{{/translate}}
+        </th>
+        <th>
+            {{#translate}}Description{{/translate}}
+        </th>
+        <th style="width: 1%">
+            &nbsp;
+        </th>
+        </thead>
+    </table>
+</div> --}}
